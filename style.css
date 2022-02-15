@@ -1,0 +1,39 @@
+body {
+    background-size: cover;
+}
+
+h3 {
+    font-family: 'Times New Roman', Times, serif;
+    font-weight: bolder;
+    font-size: 40px;
+    border-radius: 10px;
+    background-color:palevioletred;
+}
+
+h3:hover{
+    background-image:radial-gradient(lightcoral, coral);
+}
+
+button {
+    height:40px;
+    width:120px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size:20px;
+}
+
+.btn-success:hover{
+    background-image: linear-gradient(purple,lightblue,green,yellow,red);
+}
+
+
+canvas {
+    animation-name:example;
+    animation-duration: 3s;
+    animation-iteration-count: infinite;
+    
+}
+
+@keyframes example {
+    from {box-shadow:20px 20px 100px whitesmoke;}
+    to {box-shadow:20px 20px 100px cyan;}
+}
